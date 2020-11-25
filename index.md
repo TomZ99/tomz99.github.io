@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/TomZ99/tomz99.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TomZ99/tomz99.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sacred Book Preview - Perfect World Mobile</title>
+	<script src="./js/db.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"> 
+  </head>
+  <body>
+	<div id="app">
+		<div class="list"> ... Loading ... </div>
+		<div class="preview">
+			<div class="settings">
+				<h3>Class Base Attr</h3>
+				<input type="radio" name="classType" value="0" checked> Str (Barb, BM)<br>
+				<input type="radio" name="classType" value="1"> Dex (Arch) <br>		
+				<input type="radio" name="classType" value="2"> Mag (Cler, Veno, Wizz)<br>		
+			</div>
+			<div class="details"> ... Loading ... </div>
+		</div>
+		<div class="recipe"> ... Loading ... </div>
+	</div>
+	<script src='./js/main.js'></script>
+  </body>
+</html> 
